@@ -1,0 +1,467 @@
+:root{
+    --mainColor:rgb(54, 139, 204);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 15px;
+    font-family:monospace;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.call{
+    border-bottom: 1px solid rgb(197, 201, 204);
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.call span{
+    color: rgb(197, 201, 204);
+    float: left;
+    direction: ltr;
+    width: 90%;
+    padding-left: -100px;
+}
+.call .links{
+    width: 10%;
+    color: rgb(197, 201, 204);
+    float: left;
+    font-size: 25px;
+    margin: 0 auto;
+    border-right: 1px solid rgb(197, 201, 204);
+    border-left: 1px solid rgb(197, 201, 204);
+    text-align: center;
+    margin-left: -77px;
+    
+}
+.links .fab{
+    padding: 0 10px;
+    
+}
+.links .link1{
+    display: inline-block;
+    border-right: 1px solid rgb(197, 201, 204);
+}
+.clearFix{
+    clear: both;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+.navbar .logo a{
+    float: left;
+    width: 20%;
+    padding-left: 60px;
+}
+.navbar .head{
+    float: left;
+    width: 80%;
+    
+}
+.navbar .navigation{
+    float: left;
+    width: 80%;
+    list-style: none;
+    padding-left: 50px;
+    direction: rtl;
+}
+.navbar .search{
+    float: left;
+    width: 20%;
+    
+}
+.search a{
+    color: rgb(197, 201, 204);
+    background-color:#111;
+    direction: rtl;
+    padding: 20px;
+}
+
+header nav .navigation li.active a{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+header nav .navigation li:hover a{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+header nav .navigation li{
+    display: inline-block;
+    
+}
+header nav ul li a{
+    padding: 20px;
+    transition: 0.5s;
+}
+ 
+.content{
+     margin-top: -7px;
+}
+img{
+    width: 100%;
+}
+.content .back{
+    background-image: url('../IMG/pyrenees-3512661-720x540.jpg');
+    background-size: cover;
+    position: relative;
+   
+}
+.back .overlay{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 200px 0;
+}
+.back h2{
+    padding: 0 50px;
+    padding-top: 100px;
+}
+.back p{
+    word-spacing: 5px;
+    line-height:20px;
+    padding: 30px;
+    padding-left: 50px;
+}
+.back a{
+    border: 1px solid var(--mainColor);
+    color: #fff;
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    height: 60px;
+    margin: 50px;
+}
+.back .kalam{
+    padding-left: 30px;
+    float: left;
+    width: 50%;
+    color: #555;
+    margin-left: 50px;
+    margin-top: -190px;
+}
+.back .im{
+    width: 30%;
+    padding: 20px;
+    float: left;
+    width: 250px;
+    height: 60px;
+    background-image: url('../IMG/small_logo.png');
+    background-size: cover;
+    position: absolute;
+    top: 90px;
+    right: 190px;
+}
+
+.back .addr{
+    background-color: #eee;
+    margin-left: 100px;
+    display:block;
+    width: 310px;
+    height: 170px;
+    margin: 30px;
+    margin-left: 790px; 
+    color: #555;
+    margin-top: -200px;
+}
+.addr .hom{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: var(--mainColor);
+    color: #eee;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+    margin-top: 40px;
+}
+.addr .addr1{
+    position: relative;
+}
+.addr p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    line-height: 15px;
+    word-spacing: 1px;
+}
+.addr h3{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+.back .fax{
+    background-color: #eee;
+    margin-left: 100px;
+    display:block;
+    width: 310px;
+    height: 130px;
+    margin: 5px;
+    margin-left: 790px;
+    color: #555;
+
+}
+.fax .fax1{
+    position: relative;
+}
+.fax p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    line-height: 15px;
+    word-spacing: 1px;
+}
+.fax h3{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+.fax .hom{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: var(--mainColor);
+    color: #eee;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.back .em{
+    background-color: #eee;
+    margin-left: 100px;
+    display:block;
+    width: 310px;
+    height: 130px;
+    margin: 30px;
+    color: #555;
+    margin-left: 790px;
+}
+.em .em1{
+    position: relative;
+}
+.em p{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    line-height: 15px;
+    word-spacing: 1px;
+}
+.em h3{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+.em .hom{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: var(--mainColor);
+    color: #eee;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+    margin-top: 40px;
+}
+.back .body1{
+    margin-bottom: 20px;
+}
+
+
+
+
+.cent{
+    text-align: center;
+    position: relative;
+    margin: 60px auto;
+}
+.cent h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px; 
+    display: inline-block;
+}
+.cent span{
+    text-transform: uppercase;
+    color: var(--mainColor);
+    font-size: 40px;
+    display: inline-block;
+}
+.cent .morb{
+    position: absolute;
+    top: -3px;
+    left: 410px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--mainColor);
+    display: inline-block;
+}
+.cent .divider1{
+        position: relative;
+        width: 450px;
+        background-color:var(--mainColor);
+        height: 1px;
+        margin: 10px auto;
+}
+.divider1::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    right: calc(50% - 50px);
+    top: 0;
+    height: 3px;
+    background-color: var(--mainColor);
+}
+.divider p{
+    color: #555;
+    font-size: 12px;
+}
+.cent .links1{
+    margin: 50px;
+    margin-bottom: 60px;
+    margin-left: 210px;
+}
+.links1 .face{
+    color: #eee;
+    width: 35%;
+    float: left;
+    margin-right: 130px;
+    height: 120px;
+    background-color: rgb(55, 57, 161);
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px 0;
+}
+.links1 .in{
+    width: 35%;
+    float: left;
+    height: 120px;
+    background-color: var(--mainColor);
+    font-size: 3rem;
+    color: #eee;
+    text-align: center;
+    padding: 30px 0;
+}
+.links1 span{
+    color: #111;
+    font-size: 13px;
+    display: inline-block;
+    margin: 20px;
+    word-spacing: 400px;
+    margin-right:180px; 
+}
+
+
+
+
+.container .lc{
+    width: 20%;
+    float: left;
+    color: #eee;
+    margin: 10px;
+    position: relative;
+    margin-right: 50px;
+}
+.container .cc{
+    width: 20%;
+    float: left;
+    color: #eee;
+    margin: 5px;
+    margin-top: -10px;
+}
+.container .rc{
+    width: 45%;
+    float: left;
+    color: #eee;
+    position: relative;
+    margin-left: 10px;
+}
+.container .foot{
+    background-color: rgb(20, 11, 46);
+    position: relative;
+    height: 450px;
+    margin-bottom: -15px;
+}
+.foot .foott{
+    color: #eee;
+    margin: 30px;
+    margin-top: 50px;
+    position: absolute;
+    top: 20px;
+}
+.lc .imag{
+    width: 200px;
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    display: block;
+}
+.lc .par{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.foott .foot1{
+    margin-bottom: 60px;
+}
+.foot .copy{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.copy .far{
+    font-size: 9px;
+}
+
+
+.cc h3{
+    font-weight: 100;
+}
+.cc ul li{
+    color: #eee;
+    margin: 10px;
+    border-bottom: 0.5px solid #bbb;
+    padding-bottom: 10px;
+    list-style: square;
+}
+
+
+.rc .imag{
+    width: 160px;
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    display: block;
+}
+.rc .inp{
+    margin: 40px;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+.inp input{
+    width: 150px;
+    height: 50px;
+}
+.inp .ser{
+    border: 1px solid var(--mainColor);
+    border-radius: 3px;
+    display: inline-block;
+    color: #eee;
+    background-color: var(--mainColor);
+    padding: 15px;
+    margin-left: -10px;
+}

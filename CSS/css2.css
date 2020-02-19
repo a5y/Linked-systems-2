@@ -1,0 +1,294 @@
+:root{
+    --mainColor:rgb(54, 139, 204);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 15px;
+    font-family:monospace;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.call{
+    border-bottom: 1px solid rgb(197, 201, 204);
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.call span{
+    color: rgb(197, 201, 204);
+    float: left;
+    direction: ltr;
+    width: 90%;
+    padding-left: -100px;
+}
+.call .links{
+    width: 10%;
+    color: rgb(197, 201, 204);
+    float: left;
+    font-size: 25px;
+    margin: 0 auto;
+    border-right: 1px solid rgb(197, 201, 204);
+    border-left: 1px solid rgb(197, 201, 204);
+    text-align: center;
+    margin-left: -77px;
+    
+}
+.links .fab{
+    padding: 0 10px;
+    
+}
+.links .link1{
+    display: inline-block;
+    border-right: 1px solid rgb(197, 201, 204);
+}
+.clearFix{
+    clear: both;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+.navbar .logo a{
+    float: left;
+    width: 20%;
+    padding-left: 60px;
+}
+.navbar .head{
+    float: left;
+    width: 80%;
+    
+}
+.navbar .navigation{
+    float: left;
+    width: 80%;
+    list-style: none;
+    padding-left: 50px;
+    direction: rtl;
+}
+.navbar .search{
+    float: left;
+    width: 20%;
+    
+}
+.search a{
+    color: rgb(197, 201, 204);
+    background-color:#111;
+    direction: rtl;
+    padding: 20px;
+}
+
+header nav .navigation li.active a{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+header nav .navigation li:hover a{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+header nav .navigation li{
+    display: inline-block;
+    
+}
+header nav ul li a{
+    padding: 20px;
+    transition: 0.5s;
+}
+
+content{
+    margin-top: -15px;
+}
+
+.content .back{
+   background-image: url('../IMG/linked-systems-sliders-01.jpg');
+   background-size: cover;
+   position: relative;
+  
+}
+.back .overlay{
+    margin-top: -8px;
+   padding: 250px 0;
+}
+.back .kalam{
+    float: left;
+    width: 40%;
+    color: #eee;
+    margin-left: 90px;
+    margin-top: -110px;
+}
+.kalam h1{
+    font-size: 2.8rem;
+}
+.back .divider{
+    position: relative;
+    width: 180px;
+    background-color:var(--mainColor);
+    height: 1px;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+.divider::before{
+content: "";
+position: absolute;
+width: 90px;
+right: calc(50% - 25px);
+top: 0;
+right: 0;
+height: 4px;
+background-color: var(--mainColor);
+}
+
+.cent{
+    background-color: #eee;
+    margin:0 65.5px;
+}
+.container .conten{
+    margin: 80 auto;
+    padding-left: 90px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.container .conten .cont{
+    width: 90%;
+    margin: 20px;
+    background-color: #fff;
+    position: relative;
+    padding: 10px;
+}
+.cont .draw{
+    font-size: 2.5rem;
+    color: #eee;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    padding:15px;
+    padding-right: 20px;
+    background-color: rgb(36, 185, 185);
+    margin: 20px;
+    text-align: center;
+}
+.cont h3{
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+.cont p{
+    display: inline-block;
+    margin: 10px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+
+
+
+.container .lc{
+    width: 20%;
+    float: left;
+    color: #eee;
+    margin: 10px;
+    position: relative;
+    margin-right: 50px;
+}
+.container .cc{
+    width: 20%;
+    float: left;
+    color: #eee;
+    margin: 5px;
+    margin-top: -10px;
+}
+.container .rc{
+    width: 45%;
+    float: left;
+    color: #eee;
+    position: relative;
+    margin-left: 10px;
+}
+.container .foot{
+    background-color: rgb(20, 11, 46);
+    position: relative;
+    height: 450px;
+    margin-bottom: -15px;
+}
+.foot .foott{
+    color: #eee;
+    margin: 30px;
+    margin-top: 50px;
+    position: absolute;
+    top: 20px;
+}
+.lc .imag{
+    width: 200px;
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    display: block;
+}
+.lc .par{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.foott .foot1{
+    margin-bottom: 60px;
+}
+.foot .copy{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.copy .far{
+    font-size: 9px;
+}
+
+
+.cc h3{
+    font-weight: 100;
+}
+.cc ul li{
+    color: #eee;
+    margin: 10px;
+    border-bottom: 0.5px solid #bbb;
+    padding-bottom: 10px;
+    list-style: square;
+}
+
+
+.rc .imag{
+    width: 160px;
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    display: block;
+}
+.rc .inp{
+    margin: 40px;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+.inp input{
+    width: 150px;
+    height: 50px;
+}
+.inp .ser{
+    border: 1px solid var(--mainColor);
+    border-radius: 3px;
+    display: inline-block;
+    color: #eee;
+    background-color: var(--mainColor);
+    padding: 15px;
+    margin-left: -10px;
+}
